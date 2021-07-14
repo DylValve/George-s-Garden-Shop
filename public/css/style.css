@@ -1,0 +1,434 @@
+/* SCSS */
+.orbit-image {
+  height: 500px;
+}
+
+.cell-page-boundary {
+  height: 100px;
+}
+
+.main-hr {
+  margin: 0px 50px;
+  height: 50px;
+}
+
+#intro-paragraph {
+  background-color: limegreen;
+  padding: 30px;
+  text-align: justify;
+}
+
+#intro-title {
+  text-align: center;
+}
+
+.intro-video {
+  margin-top: 15px;
+}
+
+.orbit {
+  margin-top: 15px;
+}
+
+.intro-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
+}
+
+.product-list {
+  list-style: none;
+}
+
+.product-list-item {
+  float: left;
+}
+
+.product-image {
+  border: lemonchiffon solid 2.5px;
+}
+
+.product-text-div {
+  width: 100px;
+  padding: 10px 0px;
+}
+
+.image-background {
+  background-color: white;
+}
+
+.style-override {
+  height: 0px !important;
+}
+
+.sticky-product-cell {
+  background-color: limegreen;
+}
+
+.product-top-blurb {
+  background-color: limegreen;
+}
+
+.product-section-titles {
+  background-color: lemonchiffon;
+  padding: 5px 10px 0px;
+}
+
+.product-hr {
+  height: 100px;
+  margin: 0px 50px;
+}
+
+.product-label {
+  background-color: lemonchiffon;
+}
+
+.product-name {
+  float: left;
+}
+
+.product-price {
+  float: right;
+}
+
+.checkbox-quantity {
+  margin: 0px 0px 0px;
+  width: 50px;
+  float: right;
+}
+
+.checkbox-box {
+  margin: 10px 10px 0px;
+  float: left;
+}
+
+.checkbox-product-name {
+  width: 40px;
+  margin: 5px 0px 20px;
+  float: left;
+}
+
+.checkbox-div {
+  margin: 5px 0px;
+  float: left;
+}
+
+.checkbox-product-price {
+  width: 40px;
+  margin: 5px 10px 0px;
+  float: left;
+}
+
+.order-boundary {
+  height: 70px;
+}
+
+#order-notes {
+  height: 400px;
+  max-width: 90%;
+  margin: 10px 5%;
+}
+
+.order-details-cell {
+  padding: 10px 30px;
+}
+
+.order-headings {
+  padding: 0px 30px;
+}
+
+.order-input {
+  width: 60%;
+}
+
+.order-button {
+  float: right;
+  margin: 25px 50px;
+}
+
+.order-total {
+  float: left;
+  margin: 25px 50px;
+}
+
+.order-submit {
+  height: 100px;
+}
+
+#form-background {
+  background-color: lemonchiffon;
+}
+
+.about-paragraph {
+  padding: 30px;
+  text-align: justify;
+}
+
+.about-title {
+  text-align: center;
+}
+
+.about-video {
+  margin-top: 15px;
+}
+
+.about-us-images {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-bar {
+  background-color: #26272b;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 400;
+}
+.top-bar ul {
+  background-color: #26272b;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 400;
+}
+
+#logo {
+  background-color: lemonchiffon;
+}
+
+#title-block {
+  width: 100%;
+  background-color: limegreen;
+}
+
+.background-of-title {
+  background-color: limegreen;
+}
+
+.menu-text {
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.header-links a {
+  color: #737373;
+}
+.header-links a:active {
+  color: #3366cc;
+  text-decoration: none;
+}
+.header-links a:focus {
+  color: #3366cc;
+  text-decoration: none;
+}
+.header-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-h6 h6 {
+  margin-left: 19px;
+}
+
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #737373;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #737373;
+}
+.footer-links a:active {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links a:focus {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links.inline li {
+  display: inline-block;
+}
+
+.copyright-text {
+  margin: 0;
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  transition: all 0.2s linear;
+}
+.social-icons a:active {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons a:focus {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text {
+    text-align: center;
+  }
+  .site-footer .social-icons {
+    text-align: center;
+  }
+
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+body {
+  background-color: lavender;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+  font-size: 65px;
+}
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.page-cell-style {
+  background-color: limegreen;
+}
