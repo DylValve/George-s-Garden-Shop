@@ -2,8 +2,10 @@
 
 namespace Database\Factories;
 
+use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Facades\Storage;
 
 class ProductFactory extends Factory
 {
@@ -21,8 +23,13 @@ class ProductFactory extends Factory
      */
     public function definition()
     {
+        $files = Storage::allFiles(public_path('images'));
+        $randomFile = $files[rand(0, count($files) - 1)];
         return [
-            //
+            'name' => $this->faker->word(),
+            'price' => $this->faker->randomDigitNotNull(),
+            'image' => $randomFile,
+            'category_id' => Category::all()->random()->id,
         ];
     }
 }
