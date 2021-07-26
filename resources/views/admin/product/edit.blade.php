@@ -173,7 +173,7 @@
                     <tbody>
                     <tr>
                         <td class="flex justify-center">
-                            <form method="POST" action="{{route('products.update', $product)}}">
+                            <form method="POST" action="{{route('products.update', $product)}}" enctype="multipart/form-data">
                                 @method('PUT')
                                 @csrf
                                 <ol>

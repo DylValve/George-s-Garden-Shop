@@ -122,8 +122,7 @@
                             @if($category->id == $product->category_id)
 
                                 <div class="cell small-6 medium-3 image-background">
-                                    <img class="product-image" src="/images/{{ $product->image }}"
-                                         alt="{{ $product->name }}">
+                                    <img class="product-image" src="/images/{{ $product->image }}" alt="{{ $product->name }}">
                                     <div class="product-label">
                                         <div class="grid-container">
                                             <div class="grid-x">

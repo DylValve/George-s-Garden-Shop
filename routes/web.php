@@ -21,7 +21,6 @@ Route::middleware(['auth:sanctum', 'verified'])->group( function() {
     Route::resource('categories', CategoryController::class);
 });
 
-
 Route::get('/', function () {
     return redirect('/main');
 });
